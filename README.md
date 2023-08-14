@@ -4,6 +4,7 @@
 //随便勾一个单元格，然后再在CONSOLE下输入以下内容回车即可
 //注意最后要自己点确认
 //可以给所有老师满分
+```javascript
 var tables = document.getElementsByTagName('table');
 
 for (let i = 0; i < (tables.length) / 2; i++) {
@@ -14,3 +15,4 @@ for (let i = 0; i < (tables.length) / 2; i++) {
     document.getElementById(`id_z${i}_${k}_1`).click();
     }
 }
+```
